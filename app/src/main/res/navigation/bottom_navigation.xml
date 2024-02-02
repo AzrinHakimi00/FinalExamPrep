@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/Page1">
+
+    <fragment
+        android:id="@+id/Page1"
+        android:name="com.example.finalexamprep.Page1"
+        android:label="fragment_page1"
+        tools:layout="@layout/fragment_page1" />
+    <fragment
+        android:id="@+id/Page2"
+        android:name="com.example.finalexamprep.Page2"
+        android:label="fragment_page2"
+        tools:layout="@layout/fragment_page2" />
+    <fragment
+        android:id="@+id/Page3"
+        android:name="com.example.finalexamprep.Page3"
+        android:label="fragment_page3"
+        tools:layout="@layout/fragment_page3" />
+</navigation>
